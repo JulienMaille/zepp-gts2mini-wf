@@ -54,8 +54,8 @@
           "ImagesCount": 10
         }
       },
-      "Unknown7": null,
-      "Unknown8": 1
+      "PaddingZeroHours": false,
+      "PaddingZeroMinutes": true
     }
   },
   "DateBlock": {
@@ -68,7 +68,7 @@
           "BottomRightY": 190,
           "Alignment": "TopLeft",
           "Spacing": 1,
-          "Unknown7": 0,
+          "VerticalOffset": 0,
           "ImageIndex": 13,
           "ImagesCount": 10
         },
@@ -106,5 +106,39 @@
       "ImagesCount": 10
     }
   },
-  "AOD": null
+  "AlwaysOnDisplay": {
+    "TimeExtended": {
+      "TimeSeparateDigits": {
+        "Hours": {
+          "Tens": {
+            "X": 35,
+            "Y": 27,
+            "ImageIndex": 3,
+            "ImagesCount": 10
+          },
+          "Ones": {
+            "X": 91,
+            "Y": 27,
+            "ImageIndex": 3,
+            "ImagesCount": 10
+          }
+        },
+        "Minutes": {
+          "Tens": {
+            "X": 35,
+            "Y": 104,
+            "ImageIndex": 3,
+            "ImagesCount": 10
+          },
+          "Ones": {
+            "X": 91,
+            "Y": 104,
+            "ImageIndex": 3,
+            "ImagesCount": 10
+          }
+        },
+        "PaddingZeroHours": true
+      }
+    }
+  }
 }

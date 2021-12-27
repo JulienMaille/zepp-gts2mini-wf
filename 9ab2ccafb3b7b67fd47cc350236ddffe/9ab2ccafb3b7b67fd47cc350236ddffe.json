@@ -68,8 +68,8 @@
           "ImagesCount": 10
         }
       },
-      "Unknown7": null,
-      "Unknown8": 1
+      "PaddingZeroHours": false,
+      "PaddingZeroMinutes": true
     }
   },
   "Activity": {
@@ -81,7 +81,7 @@
         "BottomRightY": 42,
         "Alignment": "TopRight",
         "Spacing": 2,
-        "Unknown7": 0,
+        "VerticalOffset": 0,
         "ImageIndex": 23,
         "ImagesCount": 10
       }
@@ -94,7 +94,7 @@
         "BottomRightY": 76,
         "Alignment": "TopRight",
         "Spacing": 2,
-        "Unknown7": 0,
+        "VerticalOffset": 0,
         "ImageIndex": 23,
         "ImagesCount": 10
       }
@@ -107,7 +107,7 @@
         "BottomRightY": 110,
         "Alignment": "TopRight",
         "Spacing": 2,
-        "Unknown7": 0,
+        "VerticalOffset": 0,
         "ImageIndex": 23,
         "ImagesCount": 10
       },
@@ -121,7 +121,7 @@
         "BottomRightY": 67,
         "Alignment": "TopCenter",
         "Spacing": 1,
-        "Unknown7": 0,
+        "VerticalOffset": 0,
         "ImageIndex": 38,
         "ImagesCount": 10
       }
@@ -135,7 +135,7 @@
         "BottomRightY": 266,
         "Alignment": "TopRight",
         "Spacing": 2,
-        "Unknown7": 0,
+        "VerticalOffset": 0,
         "ImageIndex": 23,
         "ImagesCount": 10
       }
@@ -165,7 +165,7 @@
         "BottomRightY": 300,
         "Alignment": "TopRight",
         "Spacing": 2,
-        "Unknown7": 0,
+        "VerticalOffset": 0,
         "ImageIndex": 23,
         "ImagesCount": 10
       },
@@ -179,7 +179,7 @@
         "BottomRightY": 297,
         "Alignment": "TopRight",
         "Spacing": 0,
-        "Unknown7": 0,
+        "VerticalOffset": 0,
         "ImageIndex": 38,
         "ImagesCount": 10
       }
@@ -194,7 +194,7 @@
         "BottomRightY": 334,
         "Alignment": "TopRight",
         "Spacing": 2,
-        "Unknown7": 0,
+        "VerticalOffset": 0,
         "ImageIndex": 23,
         "ImagesCount": 10
       },
@@ -209,7 +209,7 @@
       "ImagesCount": 12
     }
   },
-  "UviProgressAlt": {
+  "UviProgress": {
     "ImageProgress": {
       "X": 199,
       "Y": 260,
@@ -217,5 +217,47 @@
       "ImagesCount": 12
     }
   },
-  "AOD": null
+  "AlwaysOnDisplay": {
+    "TimeExtended": {
+      "TimeSeparateDigits": {
+        "Hours": {
+          "Tens": {
+            "X": 31,
+            "Y": 115,
+            "ImageIndex": 13,
+            "ImagesCount": 10
+          },
+          "Ones": {
+            "X": 87,
+            "Y": 115,
+            "ImageIndex": 13,
+            "ImagesCount": 10
+          }
+        },
+        "Minutes": {
+          "Tens": {
+            "X": 168,
+            "Y": 115,
+            "ImageIndex": 13,
+            "ImagesCount": 10
+          },
+          "Ones": {
+            "X": 223,
+            "Y": 115,
+            "ImageIndex": 13,
+            "ImagesCount": 10
+          }
+        },
+        "PaddingZeroHours": true
+      },
+      "AmPm": {
+        "CommonX": 232,
+        "CommonY": 75,
+        "ImageIndexAMCN": 33,
+        "ImageIndexPMCN": 34,
+        "AmImageIndexEN": 35,
+        "PmImageIndexEN": 36
+      }
+    }
+  }
 }

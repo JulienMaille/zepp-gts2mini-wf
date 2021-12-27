@@ -13,9 +13,9 @@
       "Y": 0,
       "ImageIndex": 10
     },
-    "UnknownZepp8": null,
-    "UnknownZepp9": null,
-    "UnknownZepp10": null
+    "UnknownZeppCustom8": null,
+    "UnknownZeppCustom9": null,
+    "UnknownZeppCustom10": null
   },
   "TimeExtended": {
     "TimeSeparateDigits": {
@@ -47,8 +47,8 @@
           "ImagesCount": 10
         }
       },
-      "Unknown7": null,
-      "Unknown8": 1
+      "PaddingZeroHours": false,
+      "PaddingZeroMinutes": true
     }
   },
   "DateBlock": {
@@ -61,7 +61,7 @@
           "BottomRightY": 225,
           "Alignment": "Top",
           "Spacing": 1,
-          "Unknown7": 0,
+          "VerticalOffset": 0,
           "ImageIndex": 21,
           "ImagesCount": 10
         },
@@ -98,5 +98,84 @@
       "ImagesCount": 7
     }
   },
-  "AOD": null
+  "AlwaysOnDisplay": {
+    "TimeExtended": {
+      "TimeSeparateDigits": {
+        "Hours": {
+          "Tens": {
+            "X": 198,
+            "Y": 51,
+            "ImageIndex": 11,
+            "ImagesCount": 10
+          },
+          "Ones": {
+            "X": 241,
+            "Y": 51,
+            "ImageIndex": 11,
+            "ImagesCount": 10
+          }
+        },
+        "Minutes": {
+          "Tens": {
+            "X": 198,
+            "Y": 126,
+            "ImageIndex": 11,
+            "ImagesCount": 10
+          },
+          "Ones": {
+            "X": 241,
+            "Y": 126,
+            "ImageIndex": 11,
+            "ImagesCount": 10
+          }
+        },
+        "PaddingZeroHours": true
+      },
+      "AmPm": {
+        "CommonX": 241,
+        "CommonY": 0,
+        "ImageIndexAMCN": 57,
+        "ImageIndexPMCN": 58,
+        "AmImageIndexEN": 59,
+        "PmImageIndexEN": 60
+      }
+    },
+    "Week": {
+      "Weekday": {
+        "X": 225,
+        "Y": 235,
+        "ImageIndex": 61,
+        "ImagesCount": 7
+      },
+      "WeekdayChinese": {
+        "X": 225,
+        "Y": 235,
+        "ImageIndex": 75,
+        "ImagesCount": 7
+      },
+      "WeekdayKorean": {
+        "X": 225,
+        "Y": 235,
+        "ImageIndex": 68,
+        "ImagesCount": 7
+      }
+    },
+    "Date": {
+      "Month": {
+        "TopLeftX": 221,
+        "TopLeftY": 199,
+        "BottomRightX": 281,
+        "BottomRightY": 225,
+        "Alignment": "Top",
+        "Spacing": 1,
+        "VerticalOffset": 0,
+        "ImageIndex": 21,
+        "ImagesCount": 10
+      },
+      "UnknownImageIndex": 31,
+      "PaddingZeroMonth": false,
+      "PaddingZeroDay": false,
+      "Unknown11": 1
+    }
+  }
 }

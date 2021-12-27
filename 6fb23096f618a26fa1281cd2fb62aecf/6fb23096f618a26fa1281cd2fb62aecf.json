@@ -68,8 +68,8 @@
           "ImagesCount": 10
         }
       },
-      "Unknown7": null,
-      "Unknown8": 1
+      "PaddingZeroHours": false,
+      "PaddingZeroMinutes": true
     }
   },
   "Activity": {
@@ -81,7 +81,7 @@
         "BottomRightY": 339,
         "Alignment": "TopRight",
         "Spacing": 0,
-        "Unknown7": 0,
+        "VerticalOffset": 0,
         "ImageIndex": 42,
         "ImagesCount": 10
       },
@@ -104,7 +104,7 @@
           "BottomRightY": 60,
           "Alignment": "TopLeft",
           "Spacing": 1,
-          "Unknown7": 0,
+          "VerticalOffset": 0,
           "ImageIndex": 13,
           "ImagesCount": 10
         },
@@ -163,7 +163,7 @@
       "ImageIndex": 53,
       "ImagesCount": 6
     },
-    "NoDataImageIndex": {
+    "NoDataImage": {
       "X": 123,
       "Y": 279,
       "ImageIndex": 67
@@ -208,7 +208,7 @@
         "PaddingZeroHours": true
       }
     },
-    "Date": {
+    "DateOneLine": {
       "MonthAndDay": {
         "TopLeftX": 93,
         "TopLeftY": 56,
@@ -216,11 +216,11 @@
         "BottomRightY": 74,
         "Alignment": "TopLeft",
         "Spacing": 1,
-        "Unknown7": 0,
+        "VerticalOffset": 0,
         "ImageIndex": 13,
         "ImagesCount": 10
       },
-      "MonthDataTypeImageIndex": 23
+      "SeparatorImageIndex": 23
     },
     "Week": {
       "Weekday": {
